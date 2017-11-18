@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BookListingApp</string>
+    <string name="baseUrl">https://www.googleapis.com/books/v1/volumes?q=</string>
+    <string name="noInernet">No internet connection</string>
+    <string name="title">Title :</string>
+    <string name="writer">Writer :</string>
+    <string name="pages">Pages :</string>
+    <string name="date">Published Date :</string>
+    <string name="noDataFound">No Books can be found with this name.\nPlease find anohter book.</string>
+    <string name="search">Search</string>
+    <string name="hint">Enter Book Title/Author</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout style="@style/listItemElementStyle">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/book_title_id"
+            style="@style/FetchedDataStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/listItemElementStyle">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/writer" />
+
+        <TextView
+            android:id="@+id/book_writer_id"
+            style="@style/FetchedDataStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/listItemElementStyle">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/date" />
+
+        <TextView
+            android:id="@+id/book_publish_date_id"
+            style="@style/FetchedDataStyle" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/listItemElementStyle">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="@string/pages" />
+
+        <TextView
+            android:id="@+id/book_pages_id"
+            style="@style/FetchedDataStyle" />
+    </LinearLayout>
+
+</LinearLayout>

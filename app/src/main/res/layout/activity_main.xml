@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mainLayoutStyle"
+    tools:context="com.example.android.booklistingapp.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        style="@style/editTextStyle"
+        android:hint="@string/hint" />
+
+    <Button
+        android:id="@+id/search_btn_id"
+        style="@style/btnStyle"
+        android:layout_toRightOf="@id/edit_text_id"
+        android:text="@string/search" />
+
+    <TextView
+        android:id="@+id/text_view_no_data_id"
+        style="@style/noDataTextViewStyle"
+        android:layout_below="@+id/edit_text_id"
+        android:text="@string/noDataFound"
+        tools:visibility="visible" />
+
+    <ListView
+        android:id="@+id/list_view_id"
+        style="@style/listViewStyle"
+        android:layout_below="@id/text_view_no_data_id" />
+
+</RelativeLayout>
